@@ -35,13 +35,14 @@ a{text-decoration:none; color:#3B8C9F} a:hover{color:#FF7A1F}
 .title-right,.title-box{background:#797979;padding:0 5px 0 0;margin:0;font-size:10pt;color:#fff}
 .title-right span,.title-box span{display:block;padding:11px 0 11px 10px}
 
+.side-box{ margin-bottom: 20px; box-shadow: 4px 4px 4px #ccc;}
 /*Left content*/
 #left-content{float:left;width:202px;margin-right:10px}
-.sub-cat{list-style:none;margin:0;padding:0;border-left:1px solid #ccc;border-right:1px solid #ccc;background:#fff}
-.sub-cat li a{color:#333;display:block;font-size:10pt;font-weight:bold;border-bottom:1px solid #ccc;padding:6px 5px 6px 20px}
-.sub-cat li.last a{border:none}
+.sub-cat{list-style:none;margin:0;margin-bottom:20px;padding:0;border-left:1px solid #ccc;border-right:1px solid #ccc;background:#fff}
+.sub-cat li a{color:#333;display:block;font-size:10pt;font-weight:bold;padding:6px 5px 6px 20px;}
+/* .sub-cat li.last a{border:none} */
+.sub-cat li{border-bottom:1px solid #ccc; height: 40px}
 .sub-cat li:hover{background-color: #E4E4E4}
-.sub-cat li ul{padding:3px 0 1px 21px;margin:0;list-style:none} .sub-cat li ul li{background:none;padding:0}
 
 .support{list-style:none;margin:0;padding:0;text-align:center}
 .support li {color:#333;font-weight:bold;line-height:1.5em;} .support li  p{margin:0}
@@ -66,7 +67,7 @@ a{text-decoration:none; color:#3B8C9F} a:hover{color:#FF7A1F}
 .breadcrumbs a:hover{color:#f00}
 
 .ico-view{text-align:right;margin-top:10px}
-.ico-view a{color:#2997CA;padding:0 0 0 17px; margin-left: 1em; background:url(../images/sprite.png) no-repeat 0px -14px}
+.ico-view a{color:#2997CA;padding:0 0 0 17px; margin-left: 1em;}
 .ico-view a.go-top{background-position: 2px 2px}
 .ico-view a:hover{color:#E3611E}
 
@@ -101,15 +102,15 @@ a{text-decoration:none; color:#3B8C9F} a:hover{color:#FF7A1F}
 .panel-items-index li.item-first{padding:0;margin-bottom:8px} 
 .panel-items-index li.item-first a{background:none;padding:0}.panel-items-index li.item-first a:hover{background:none}
 .panel-items-index li.item-first h3{margin-bottom:8px;font-size:11pt} 
-.panel-items-index li a{color:#333;background:url(../images/icon-index.png) no-repeat 3px 7px;padding:2px 2px 2px 15px}
-.panel-items-index li a:hover{color:#333;background:url(../images/icon-index-hover.png) no-repeat 3px 7px}
+.panel-items-index li a{color:#333;padding:2px 2px 2px 15px}
+.panel-items-index li a:hover{color:#333}
 
 /**  items-other  **/
 .title-item-other{margin:25px 0 10px;padding-bottom:4px;font-size:11pt;color:#4A4444;font-weight:bold;border-bottom:1px dotted #4A4444}
 .items-other{margin:0;padding:0;list-style:none}
 .items-other li a span{color:#555;font-style:italic;padding-left:3px;font-size:11px}
 .items-other li:hover,.items-other li.odd{background:#f6f6f6}
-.items-other li a{color:#333;background:url(../images/icon-other.gif) no-repeat 5px 5px;padding:5px 5px 5px 27px;display:block} 
+.items-other li a{color:#333;padding:5px 5px 5px 27px;display:block} 
 .items-other li a:hover{color:#f00}
 
 /* paging */
@@ -121,19 +122,15 @@ ul.paging .page a:hover, ul.paging .previous a:hover, ul.paging .first a:hover, 
 
 #column-3{float:right;width:202px}
 #video-top{text-align:center;padding:5px 5px 8px}
-.main-sub,.main-view-video,.main-border,.main-content{padding:5px;background:#fff;border-left:1px solid #ccc;border-right:1px solid #ccc}
+.main-sub,.main-view-video,.main-border,.main-content{padding:5px;background:#fff}
 
 .main-view-video{text-align:center;padding:10px}  .main-content p{line-height:1.6em}
-.line-box{background:url(../images/box-line.png) no-repeat right; height:5px;padding-right:10px;margin-bottom:10px}
-.line-box div{background:url(../images/box-line.png) no-repeat left; height:5px;padding-left:10px}
 
-.main-video-left{background:url(../images/video-left.png) repeat-y left top;margin:auto}
-.main-video-left .main-video-right{background:url(../images/video-right.png) repeat-y right top;text-align:center}
-.line-video-1{background:url(../images/video-line-right.png) no-repeat bottom right}
-.line-video-2{background:url(../images/video-line-left.png) no-repeat bottom left;padding-bottom:21px}
+.main-video-left{margin:auto}
+.main-video-left .main-video-right{text-align:center}
 
 /*Footer*/
-#footer{padding:10px 0 10px;font-size:13px;color:#fff;background:#474747 url(../images/footer.jpg) repeat-x top} #footer a{color:#fff}
+#footer{padding:10px 0 10px;font-size:13px;color:#fff;background:#474747} #footer a{color:#fff}
 .footer-info{float:left;width:500px}
 .copyright{float:right;width:450px; text-align:right}
 #nav-footer{list-style:none;margin:0 0 5px;padding:7px 5px;text-align:center}
