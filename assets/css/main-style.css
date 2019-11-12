@@ -38,9 +38,9 @@ a{text-decoration:none; color:#3B8C9F} a:hover{color:#FF7A1F}
 /*Left content*/
 #left-content{float:left;width:202px;margin-right:10px}
 .sub-cat{list-style:none;margin:0;padding:0;border-left:1px solid #ccc;border-right:1px solid #ccc;background:#fff}
-.sub-cat li a{color:#333;display:block;font-size:10pt;font-weight:bold;border-bottom:1px solid #ccc;padding:6px 5px 6px 20px;background:url(../images/icon-cat.jpg) no-repeat 0 6px}
+.sub-cat li a{color:#333;display:block;font-size:10pt;font-weight:bold;border-bottom:1px solid #ccc;padding:6px 5px 6px 20px}
 .sub-cat li.last a{border:none}
-.sub-cat li a:hover{color:#f00}
+.sub-cat li:hover{background-color: #E4E4E4}
 .sub-cat li ul{padding:3px 0 1px 21px;margin:0;list-style:none} .sub-cat li ul li{background:none;padding:0}
 
 .support{list-style:none;margin:0;padding:0;text-align:center}
