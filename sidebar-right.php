@@ -1,4 +1,5 @@
-            <div id="column-3">
+<?php $themeURL =  get_template_directory_uri(); ?>			
+			<div id="column-3">
 				<div class="side-box">
 					<h4 class="title-box"><span>Hỗ trợ trực tuyến</span></h4>
 					<ul class="support main-sub">
@@ -6,8 +7,8 @@
 							<p>Tư Vấn Bán Hàng</p>
 							<p>0868616979</p>
 							<p><a href="skype:P. Kinh Doanh?chat" title="Chat with P. Kinh Doanh"><img
-										src="<?php echo $themeURL; ?>/assets/images/chatbutton_24px.png"
-										alt="P. Kinh Doanh"></a></p>
+										src="<?php echo $themeURL; ?>/assets/images/zalo-icon.png"
+										width="40px" alt="P. Kinh Doanh"></a></p>
 						</li>
 						<li>
 							<p>Hỗ Trợ Kỹ Thuật</p>

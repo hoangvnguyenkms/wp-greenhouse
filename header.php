@@ -10,9 +10,6 @@
 	<meta name="robots" content="noodp,index,follow">
 	<link rel="SHORTCUT ICON" href="https://nhakinhtrongrau.vn/themes/template/images/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="https://nhakinhtrongrau.vn/themes/template/images/favicon.ico" type="image/gif">
-	<link rel="stylesheet" type="text/css" href="<?php echo $themeURL; ?>/assets/css/main-style.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="<?php echo $themeURL; ?>/assets/css/advanced-slider-base.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo $themeURL; ?>/assets/css/bootstrap.min.css">
 
 	<script type="text/javascript" src="<?php echo $themeURL; ?>/assets/js/jquery-1.8.3.min.js"></script>
 	<script type="text/javascript" src="<?php echo $themeURL; ?>/assets/js/scrolltop.js"></script>
@@ -21,10 +18,10 @@
 	<script type="text/javascript" src="<?php echo $themeURL; ?>/assets/js/excanvas.compiled-ie.js"></script>
 	<script type="text/javascript" src="<?php echo $themeURL; ?>/assets/js/jquery.sider.banner.js"></script>
 	<script type="text/javascript" src="<?php echo $themeURL; ?>/assets/js/bootstrap.bundle.min.js"></script>
-
+	<?php wp_head(); ?>
 	<script type="text/javascript">
 		/*<![CDATA[*/
-		$(document).ready(function () { runbanner(1000, 300); });
+		$(document).ready(function () { runbanner("100%", 300); });
 /*]]>*/
 	</script>
 	<title><?php bloginfo('title'); ?></title>
