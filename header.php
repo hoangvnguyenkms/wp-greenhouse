@@ -12,12 +12,16 @@
 	<link rel="icon" href="https://nhakinhtrongrau.vn/themes/template/images/favicon.ico" type="image/gif">
 	<link rel="stylesheet" type="text/css" href="<?php echo $themeURL; ?>/assets/css/main-style.css" media="screen">
 	<link rel="stylesheet" type="text/css" href="<?php echo $themeURL; ?>/assets/css/advanced-slider-base.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo $themeURL; ?>/assets/css/bootstrap.min.css">
+
 	<script type="text/javascript" src="<?php echo $themeURL; ?>/assets/js/jquery-1.8.3.min.js"></script>
 	<script type="text/javascript" src="<?php echo $themeURL; ?>/assets/js/scrolltop.js"></script>
 	<!-- <script type="text/javascript" src="<?php echo $themeURL; ?>/assets/js/embed-flash.js"></script> -->
 	<script type="text/javascript" src="<?php echo $themeURL; ?>/assets/js/jquery.advancedSlider.min.js"></script>
 	<script type="text/javascript" src="<?php echo $themeURL; ?>/assets/js/excanvas.compiled-ie.js"></script>
 	<script type="text/javascript" src="<?php echo $themeURL; ?>/assets/js/jquery.sider.banner.js"></script>
+	<script type="text/javascript" src="<?php echo $themeURL; ?>/assets/js/bootstrap.bundle.min.js"></script>
+
 	<script type="text/javascript">
 		/*<![CDATA[*/
 		$(document).ready(function () { runbanner(1000, 300); });
@@ -169,4 +173,4 @@
 			</li>
 		</ul>
 		<div class="clear"></div>
-		<div id="content">
+		<div id="content" class="row">
