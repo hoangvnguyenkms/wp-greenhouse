@@ -2,7 +2,7 @@ function runbanner(w, h){
 	var $container = $(".slider");
 	$container.advancedSlider({
 			width:w, 
-			height:h, 
+			
 			pauseSlideshowOnHover:false,
 			linkTarget:'_bank',
 			sliceDelay:'50', //Thoi gian xuat hien anh

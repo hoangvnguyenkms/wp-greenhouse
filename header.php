@@ -11,6 +11,7 @@
 	<link rel="SHORTCUT ICON" href="https://nhakinhtrongrau.vn/themes/template/images/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="https://nhakinhtrongrau.vn/themes/template/images/favicon.ico" type="image/gif">
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script type="text/javascript" src="<?php echo $themeURL; ?>/assets/js/jquery-1.8.3.min.js"></script>
 	<script type="text/javascript" src="<?php echo $themeURL; ?>/assets/js/scrolltop.js"></script>
 	<!-- <script type="text/javascript" src="<?php echo $themeURL; ?>/assets/js/embed-flash.js"></script> -->
@@ -19,11 +20,15 @@
 	<script type="text/javascript" src="<?php echo $themeURL; ?>/assets/js/jquery.sider.banner.js"></script>
 	<script type="text/javascript" src="<?php echo $themeURL; ?>/assets/js/bootstrap.bundle.min.js"></script>
 	<?php wp_head(); ?>
-	<script type="text/javascript">
-		/*<![CDATA[*/
-		$(document).ready(function () { runbanner("100%", 300); });
-/*]]>*/
-	</script>
+	<!-- <script type="text/javascript">
+		$(document).ready(
+			function() {
+				$('.carousel').carousel({
+				interval: 500
+			})
+			}
+		);
+	</script> -->
 	<title><?php bloginfo('title'); ?></title>
 	<meta name="keywords"
 		content="nhakinhtrongrau.vn, nhà kính trồng rau, nha kinh trong rau, he nha kinh trong rau, nha kinh trong rau sach">
@@ -134,7 +139,7 @@
 		<div class="main-page">
 			<div id="logo">
 				<a class="logo" href="https://nhakinhtrongrau.vn/" title="Logo"><img
-						src="<?php echo $themeURL; ?>/assets/images/logo.png" alt="Logo"></a>
+						src="<?php echo $themeURL; ?>/assets/images/logo.png" alt="Logo" width="100%"></a>
 				<div class="clear"></div>
 			</div>
 			<div class="position">
@@ -155,19 +160,32 @@
 	</div>
 	<div class="header-line"></div>
 	<div id="wrapper">
-		<ul id="banner" class="slider advanced-slider pixel webkit">			
-			<li class="slide">
-				<img class="image" src="<?php echo $themeURL; ?>/assets/images/banners/banner-1.jpg" alt=""/>
-			</li>
-			<li class="slide">
-				<img class="image" src="<?php echo $themeURL; ?>/assets/images/banners/banner-3.jpg" alt=""/>
-			</li>
-			<li class="slide">
-				<img class="image" src="<?php echo $themeURL; ?>/assets/images/banners/nha-kinh-trong-rau.jpg" alt=""/>
-			</li>
-			<li class="slide">
-				<img class="image" src="<?php echo $themeURL; ?>/assets/images/banners/nha-kinh-trong-rau1.jpg" alt=""/>
-			</li>
-		</ul>
-		<div class="clear"></div>
-		<div id="content" class="row">
+		<!-- <ul id="banner" class="slider advanced-slider pixel webkit">			
+		</ul> -->
+
+		<div id="carousel-header" class="carousel slide slider" data-ride="carousel" data-interval="2500">
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-header1" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-header2" data-slide-to="1"></li>
+				<li data-target="#carousel-header3" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+				<img class="d-block w-100" src="<?php echo $themeURL; ?>/assets/images/banners/banner-1.jpg" alt="First slide">
+				</div>
+				<div class="carousel-item">
+				<img class="d-block w-100" src="<?php echo $themeURL; ?>/assets/images/banners/banner-3.jpg" alt="Second slide">
+				</div>
+				<div class="carousel-item">
+				<img class="d-block w-100" src="<?php echo $themeURL; ?>/assets/images/banners/nha-kinh-trong-rau.jpg" alt="Third slide">
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carousel-header" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carousel-header" role="button" data-slide="next">
+				<span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>

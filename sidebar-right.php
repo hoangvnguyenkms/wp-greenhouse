@@ -1,5 +1,5 @@
 <?php $themeURL =  get_template_directory_uri(); ?>			
-			<div id="column-3">
+			<div id="right-sidebar">
 				<div class="side-box">
 					<h4 class="title-box"><span>Hỗ trợ trực tuyến</span></h4>
 					<ul class="support main-sub">

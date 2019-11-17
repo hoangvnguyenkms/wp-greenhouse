@@ -1,4 +1,47 @@
+.page-content-container {
+    background: #fff;
+    word-wrap: break-word;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    padding: 0;
+    margin-bottom: 15px;
+}
 .page-content {
-    background: red;
-    word-break: break-all;
+    padding: 20px 5%;
+}
+
+.page-title {
+    line-height: 48px;
+    font-size: 3.0rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.84);
+    margin-bottom: 2rem;
+}
+
+#carousel-header {
+    margin: auto;
+    width: 100%;
+}
+
+.nav-link-icon {
+    font-size:1.4rem; 
+    color: #6cbb23; 
+    padding-left: 5px;
+}
+
+.body-category {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.detail-button {
+    color: #fff;
+    background-color: #6cbb23;
+    border-color: #6cbb23;
+}
+
+.detail-button:hover {
+    font-weight: 400;
+    color: #6cbb23;
+    background-color: #fff;
 }

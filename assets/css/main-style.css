@@ -1,5 +1,5 @@
 @import "reset-min.css";
-body{margin:0;padding:0;background:#EFEFEF;font:9pt Arial,Helvetica,sans-serif}
+body{margin:0;padding:0;background:#FFF;font:9pt Arial,Helvetica,sans-serif}
 .left{float: left;} .right{float:right} .clear{clear: both}
 a{text-decoration:none; color:#3B8C9F} a:hover{color:#FF7A1F; text-decoration: none;}
 
@@ -8,8 +8,8 @@ a{text-decoration:none; color:#3B8C9F} a:hover{color:#FF7A1F; text-decoration: n
 
 #wrapper,.main-page{width:90%;margin:auto}
 .header-line{background: #fff ;height:3px;margin-bottom:10px}
-#header{background:#676767;padding-top:5px}
-#logo{position:relative} .position{position:relative}
+#header{background:#6cbb23;padding-top:5px}
+#logo{position:relative} 
 .hot-line-none,.hot-line,.lang{position:absolute;top:18px;right:10px; z-index:3}
 .lang a{color:rgb(102, 179, 179);font-size:10px;margin-left:5px} .lang a:hover{color:#3C5103}
 .hot-line{right:0;margin:0;top:9px; font-size:10pt;font-weight:bold;color:#ff0} .hot-line-none{right:5px}
@@ -17,32 +17,42 @@ a{text-decoration:none; color:#3B8C9F} a:hover{color:#FF7A1F; text-decoration: n
 .search_form_top_none{top:5px}
 .search_form_top #search_form{margin:0;}
 
-#nav{list-style:none;padding:0;margin:0;background:url(../images/nav-bg.png) no-repeat;height:48px;position:relative;top:3px}
+.position{
+    position:relative;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #FFF;
+    top:3px;
+}
+#nav{list-style:none;padding:0;margin:0;height:48px;position:relative}
 #nav li{float:left;position:relative;border-right:2px solid #FFFFFA}
-#nav li a{color:#000;padding:15px 20px;display:block;font-size:10pt;font-weight:bold}
+#nav li a{color:#000;padding:15px 20px;font-size:10pt;font-weight:bold; display: block;}
 #nav li.last{border:none}
 #nav li ul{display:none;margin:0;padding:2px 0;list-style:none;width:200px;background:#D8D8D8;position:absolute;top:46px;left:-2px;z-index:10}
 #nav li:hover ul{display:block}
 #nav li ul li{float:none;width:100%;border:none}
 #nav .selected ul li a,#nav li ul li a{color:#000;background:none;padding:6px 2px 6px 7px;border-bottom:1px dashed #fff}
 #nav li ul li a:hover{background:none;color:#f00} #nav li ul li.last a{border-bottom:none}
-#nav li:hover > a,#nav li a:hover, #nav .selected a{background:#FFFFFA}
+#nav li:hover > a,#nav li a:hover, #nav .selected a{color: #6cbb23}
 #nav li.first a{border-radius:10px 0 0}
 
-#banner{margin-bottom:5px; width: 90%;}
-#content{padding:5px 0}
+#content{ margin: 25px 0; padding:5px 0}
 
-.title-right,.title-box{background:#797979;padding:0 5px 0 0;margin:0;font-size:10pt;color:#fff}
+.title-right,.title-box{background:#6cbb23;padding:0 5px 0 0;margin:0;font-size:10pt;color:#fff}
 .title-right span,.title-box span{display:block;padding:11px 0 11px 10px}
 
 .side-box{ margin-bottom: 20px; box-shadow: 0 0 5px #ccc;}
 /*Left content*/
-#left-content{float:left;width:202px;margin-right:10px}
+#left-content {
+    min-width: 202px;
+    margin: auto;
+    width: 85%;
+}
 .sub-cat{list-style:none;margin:0;margin-bottom:20px;padding:0;border-left:1px solid #ccc;border-right:1px solid #ccc;background:#fff}
-.sub-cat li a{color:#333;display:block;font-size:10pt;font-weight:bold;padding:6px 5px 6px 20px;}
+.sub-cat li a{color:#333;font-size:10pt;font-weight:bold;padding:6px}
 /* .sub-cat li.last a{border:none} */
-.sub-cat li{border-bottom:1px solid #ccc; height: 40px}
-.sub-cat li:hover{background-color: #E4E4E4}
+.sub-cat li{border-bottom:1px solid #ccc; height: 40px; display: flex; align-items: center;}
+.sub-cat li:hover{background-color: #eaf5e6}
 
 .support{list-style:none;margin:0;padding:0;text-align:center}
 .support li {color:#333;font-weight:bold;line-height:1.5em;} .support li  p{margin:0}
@@ -120,7 +130,11 @@ ul.paging .hidden{display: none;}
 ul.paging .page a, ul.paging .previous a, ul.paging .first a, ul.paging .next a, ul.paging .last a{background:#8FC316;color:#fff; padding:2px 5px;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px}
 ul.paging .page a:hover, ul.paging .previous a:hover, ul.paging .first a:hover, ul.paging .next a:hover, ul.paging .last a:hover, ul.paging .selected a{background:#6DA30F}
 
-#column-3{float:right;width:202px}
+#right-sidebar {
+    min-width: 202px;
+    margin: auto;
+    width: 85%;
+}
 #video-top{text-align:center;padding:5px 5px 8px}
 .main-sub,.main-view-video,.main-border,.main-content{padding:5px;background:#fff}
 
