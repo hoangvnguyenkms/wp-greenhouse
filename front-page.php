@@ -2,6 +2,7 @@
 <?php get_header() ?>
 
 <div id="content" class="row">
+        <script>alert(123)</script>
 	
         <?php
 			$cats = get_categories(); 
@@ -15,11 +16,11 @@
                     <?php        
 					query_posts("cat=$cat_id&posts_per_page=100");
 					if (have_posts()) : while (have_posts()) : the_post(); ?>
-                            <div class="card" style="width: 18rem;">
-                                <?php echo the_post_thumbnail('thumbnail'); ?>
+                            <div class="card" style="width: 12rem;">
+                                <!-- <?php echo the_post_thumbnail('square-thumbnail'); ?> -->
                                 <?php echo the_post_thumbnail_url(); ?>
                                 <!-- <img src="<?php echo wp_get_attachment_url(get_post_thumbnail_id(get_the_ID())) ?>" class="card-img-top" alt="..."> -->
-                                <img src="<?php echo the_post_thumbnail_url(); ?>" class="card-img-top" alt="...">
+                                <img src="<?php echo the_post_thumbnail_url('square-thumbnail'); ?>" class="thumbnail-image card-img-top" alt="...">
 
                                 <div class="card-body">
                                     <p class="card-text"><?php the_title(); ?></p>

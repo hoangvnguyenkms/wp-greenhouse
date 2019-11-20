@@ -6,7 +6,11 @@ a{text-decoration:none; color:#3B8C9F} a:hover{color:#FF7A1F; text-decoration: n
 .scrollup{width:41px;height:41px;text-indent:-9999px;position:fixed;bottom:5px;right:5px;display:none;background: url(../images/up-arrow.png) no-repeat;cursor:pointer}
 .scrollup:hover{background-position:bottom}
 
-#wrapper,.main-page{width:90%;margin:auto}
+#wrapper,.main-page {
+    width:90%;
+    margin:auto;
+    max-width: 1140px;
+}
 .header-line{background: #fff ;height:3px;margin-bottom:10px}
 #header{background:#6cbb23;padding-top:5px}
 #logo{position:relative} 

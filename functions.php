@@ -18,7 +18,12 @@
         add_theme_support( 'post-thumbnails' ); 
     }
 
+    function wpdocs_resize_thumbnail() {
+        add_image_size( 'square-thumbnail', 500, 500, true);
+    }
+
     add_action( 'wp_enqueue_scripts', 'additional_stylesheets' );
     add_action( 'after_setup_theme', 'additional_setup' );
+    add_action( 'after_setup_theme', 'wpdocs_resize_thumbnail' );
 
  ?>
