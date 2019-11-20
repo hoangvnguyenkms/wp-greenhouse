@@ -47,5 +47,29 @@
 }
 
 .thumbnail-image {
-    max-height: 12rem;
+    max-height: 9rem;
+}
+
+.thumbnail-body {
+    padding: 5px 0;
+}
+
+.post-thumbnail {
+    margin-right: 10px;
+}
+
+.header-category {
+    background-color: #6cbb23;
+    font-size: 1.0rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #FFF;
+}
+
+.thumbnail-body p {
+    margin: 0;
+    line-height: 1.4;
+    padding-bottom: 3px;
+    font-size: 0.8rem;
+    font-weight: 500;
 }

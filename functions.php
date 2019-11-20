@@ -19,7 +19,7 @@
     }
 
     function wpdocs_resize_thumbnail() {
-        add_image_size( 'square-thumbnail', 500, 500, true);
+        add_image_size( 'square-thumbnail', 200, 200, true);
     }
 
     add_action( 'wp_enqueue_scripts', 'additional_stylesheets' );
