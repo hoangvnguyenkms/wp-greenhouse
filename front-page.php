@@ -2,6 +2,9 @@
 <?php get_header() ?>
 
 <div id="content" class="row">	
+    <div class=" col-lg-3 col-md-4 col-sm-4 col-12">
+		<?php get_sidebar('left') ?>
+	</div>
     <div class=" col-lg-6 col-md-5 col-sm-8 col-12">
         <?php
 			$cats = get_categories(); 
@@ -35,6 +38,9 @@
                 </div>
             <?php } ?>
     </div>
+    <div class=" col-lg-3 col-md-3 col-sm-12 col-12">
+		<?php get_sidebar('right') ?>
+	</div>
 
 	<!-- <div class=" col-lg-6 col-md-5 col-sm-8 col-12">
         <div class="card text-center mb-4">
@@ -62,3 +68,4 @@
         </div>
 	</div> -->
 </div>
+<?php get_footer() ?>

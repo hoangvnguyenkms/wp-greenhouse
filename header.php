@@ -8,17 +8,11 @@
 	<meta http-equiv="content-language" content="vi, en">
 	<meta name="revisit-after" content="1 days">
 	<meta name="robots" content="noodp,index,follow">
-	<link rel="SHORTCUT ICON" href="https://nhakinhtrongrau.vn/themes/template/images/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="https://nhakinhtrongrau.vn/themes/template/images/favicon.ico" type="image/gif">
+	<!-- <link rel="SHORTCUT ICON" href="https://nhakinhtrongrau.net/themes/template/images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="https://nhakinhtrongrau.net/themes/template/images/favicon.ico" type="image/gif"> -->
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script type="text/javascript" src="<?php echo $themeURL; ?>/assets/js/jquery-1.8.3.min.js"></script>
-	<script type="text/javascript" src="<?php echo $themeURL; ?>/assets/js/scrolltop.js"></script>
-	<!-- <script type="text/javascript" src="<?php echo $themeURL; ?>/assets/js/embed-flash.js"></script> -->
-	<script type="text/javascript" src="<?php echo $themeURL; ?>/assets/js/jquery.advancedSlider.min.js"></script>
-	<script type="text/javascript" src="<?php echo $themeURL; ?>/assets/js/excanvas.compiled-ie.js"></script>
-	<script type="text/javascript" src="<?php echo $themeURL; ?>/assets/js/jquery.sider.banner.js"></script>
-	<script type="text/javascript" src="<?php echo $themeURL; ?>/assets/js/bootstrap.bundle.min.js"></script>
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+	<!-- <script type="text/javascript" src="<?php echo $themeURL; ?>/assets/js/jquery-1.8.3.min.js"></script> -->
 	<?php wp_head(); ?>
 	<!-- <script type="text/javascript">
 		$(document).ready(
@@ -31,9 +25,9 @@
 	</script> -->
 	<title><?php bloginfo('title'); ?></title>
 	<meta name="keywords"
-		content="nhakinhtrongrau.vn, nhà kính trồng rau, nha kinh trong rau, he nha kinh trong rau, nha kinh trong rau sach">
+		content="nhakinhtrongrau.net, nhà kính trồng rau, nha kinh trong rau, he nha kinh trong rau, nha kinh trong rau sach">
 	<meta name="description"
-		content="nhakinhtrongrau.vn, nhà kính trồng rau, nha kinh trong rau, he nha kinh trong rau, nha kinh trong rau sach">
+		content="nhakinhtrongrau.net, nhà kính trồng rau, nha kinh trong rau, he nha kinh trong rau, nha kinh trong rau sach">
 
 	<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="/themes/template/css/ie6.css" /><![endif]-->
 	<script>
@@ -138,19 +132,19 @@
 	<div id="header">
 		<div class="main-page">
 			<div id="logo">
-				<a class="logo" href="https://nhakinhtrongrau.vn/" title="Logo"><img
+				<a class="logo" href="https://nhakinhtrongrau.net/" title="Logo"><img
 						src="<?php echo $themeURL; ?>/assets/images/logo.png" alt="Logo" width="100%"></a>
 				<div class="clear"></div>
 			</div>
 			<div class="position">
 				<ul id="nav">
-					<li class="selected first"><a title="Trang chủ" href="https://nhakinhtrongrau.vn/trang-chu">Trang
+					<li class="selected first"><a title="Trang chủ" href="https://nhakinhtrongrau.net/trang-chu">Trang
 							chủ</a></li>
-					<li><a title="Sản phẩm" href="https://nhakinhtrongrau.vn/san-pham">Sản phẩm</a></li>
-					<li><a title="Tin tức" href="https://nhakinhtrongrau.vn/tin-tuc-su-kien">Tin tức</a></li>
-					<li><a title="Công trình" href="https://nhakinhtrongrau.vn/du-an">Công trình</a></li>
-					<li><a title="Video" href="https://nhakinhtrongrau.vn/video">Video</a></li>
-					<li class="last"><a title="Liên hệ" href="https://nhakinhtrongrau.vn/lien-he">Liên hệ</a></li>
+					<li><a title="Sản phẩm" href="https://nhakinhtrongrau.net/san-pham">Sản phẩm</a></li>
+					<li><a title="Tin tức" href="https://nhakinhtrongrau.net/tin-tuc-su-kien">Tin tức</a></li>
+					<li><a title="Công trình" href="https://nhakinhtrongrau.net/du-an">Công trình</a></li>
+					<li><a title="Video" href="https://nhakinhtrongrau.net/video">Video</a></li>
+					<li class="last"><a title="Liên hệ" href="https://nhakinhtrongrau.net/lien-he">Liên hệ</a></li>
 				</ul>
 				<div class="clear"></div>
 				<div class="lang">
