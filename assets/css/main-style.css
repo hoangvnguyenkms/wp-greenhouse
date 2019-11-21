@@ -1,5 +1,5 @@
 @import "reset-min.css";
-body{margin:0;padding:0;background:#FFF;font:9pt Arial,Helvetica,sans-serif}
+body{margin:0;padding:0;background:#FFF;font:14px Arial,Helvetica,sans-serif}
 .left{float: left;} .right{float:right} .clear{clear: both}
 a{text-decoration:none; color:#3B8C9F} a:hover{color:#FF7A1F; text-decoration: none;}
 

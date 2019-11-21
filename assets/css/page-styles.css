@@ -17,6 +17,17 @@
     margin-bottom: 2rem;
 }
 
+.metadata-post {
+    color: #767676;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.content-post {
+    line-height: 1.5;
+}
+
 #carousel-header {
     margin: auto;
     width: 100%;
@@ -31,7 +42,8 @@
 .body-category {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .detail-button {
@@ -56,6 +68,7 @@
 
 .post-thumbnail {
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .header-category {
