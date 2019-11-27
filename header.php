@@ -1,13 +1,8 @@
 <?php $themeURL =  get_template_directory_uri(); ?>
-<!DOCTYPE html
-	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" class="gr__nhakinhtrongrau_vn">
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta http-equiv="content-language" content="vi, en">
-	<meta name="revisit-after" content="1 days">
-	<meta name="robots" content="noodp,index,follow">
 	<!-- <link rel="SHORTCUT ICON" href="https://nhakinhtrongrau.net/themes/template/images/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="https://nhakinhtrongrau.net/themes/template/images/favicon.ico" type="image/gif"> -->
 
@@ -23,6 +18,7 @@
 			}
 		);
 	</script> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title><?php bloginfo('title'); ?></title>
 	<meta name="keywords"
 		content="nhakinhtrongrau.net, nhà kính trồng rau, nha kinh trong rau, he nha kinh trong rau, nha kinh trong rau sach">
