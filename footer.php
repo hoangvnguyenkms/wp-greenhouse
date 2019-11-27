@@ -3,7 +3,7 @@
 	<div id="footer">
 		<div class="main-page">
 			<ul id="nav-footer">
-				<li class="selected"><a title="Trang chủ" href="https://nhakinhtrongrau.net/trang-chu">Trang chủ</a></li>
+				<li class="selected"><a title="Trang chủ" href="https://nhakinhtrongrau.net">Trang chủ</a></li>
 				<li><a title="Sản phẩm" href="https://nhakinhtrongrau.net/san-pham">Sản phẩm</a></li>
 				<li><a title="Tin tức" href="https://nhakinhtrongrau.net/tin-tuc-su-kien">Tin tức</a></li>
 				<li><a title="Công trình" href="https://nhakinhtrongrau.net/du-an">Công trình</a></li>

@@ -1,7 +1,10 @@
 
 <?php get_header() ?>
-    
-    <div class=" col-lg-6 col-md-5 col-sm-8 col-12 page-content-container">
+<div id="content" class="row">
+    <div class=" col-lg-4 col-md-4 col-sm-4 col-12">
+		<?php get_sidebar('left') ?>
+	</div>
+    <div class=" col-lg-8 col-md-8 col-sm-8 col-12 page-content-container">
 		<div class="page-content">
 			<?php
 				while ( have_posts() ) :
@@ -22,5 +25,5 @@
 				?>
 		</div>
 	</div>
-	
+</div>	
 <?php get_footer() ?>

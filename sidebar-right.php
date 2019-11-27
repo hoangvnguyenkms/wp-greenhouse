@@ -28,13 +28,13 @@
 				<div class="side-box">
 					<h4 class="title-box"><span>Thương Hiệu Sản Phẩm</span></h4>
 					<ul class="bg-adv main-sub">
-						<li><a href="https://nhakinhtrongrau.net/trang-chu" target="_bank" title="Đối tác"><img
+						<li><a href="https://nhakinhtrongrau.net" target="_bank" title="Đối tác"><img
 									src="<?php echo $themeURL; ?>/assets/images/netafim.jpg" alt="Đối tác" style="width: 190px;"></a>
 						</li>
 						<li><a href="http://nhakinhtrongrau.net/san-pham/mang-phu-nong-nghiep" target="_bank"
 								title="Đối tác"><img src="<?php echo $themeURL; ?>/assets/images/nilon.png" alt="Đối tác"
 									style="width: 190px;"></a></li>
-						<li><a href="https://nhakinhtrongrau.net/trang-chu" target="_bank" title="THSP1"><img
+						<li><a href="https://nhakinhtrongrau.net" target="_bank" title="THSP1"><img
 									src=".<?php echo $themeURL; ?>/assets/images/thsp1.png" alt="THSP1" style="width: 190px;"></a></li>
 					</ul>
 				</div>

@@ -17,7 +17,7 @@
                         </div>
                         <div class="card-body body-category">
                     <?php        
-					query_posts("cat=$cat_id&posts_per_page=100");
+					query_posts("cat=$cat_id&posts_per_page=10");
 					if (have_posts()) : while (have_posts()) : the_post(); ?>
                             <div class="card post-thumbnail" style="width: 10rem;">
                                 <!-- <?php echo the_post_thumbnail('square-thumbnail'); ?> -->

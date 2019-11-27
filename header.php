@@ -1,12 +1,12 @@
 <?php $themeURL =  get_template_directory_uri(); ?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" class="gr__nhakinhtrongrau_vn">
+<html xmlns="http://www.w3.org/1999/xhtml" >
 
 <head>
 	<!-- <link rel="SHORTCUT ICON" href="https://nhakinhtrongrau.net/themes/template/images/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="https://nhakinhtrongrau.net/themes/template/images/favicon.ico" type="image/gif"> -->
 
-	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- <script type="text/javascript" src="<?php echo $themeURL; ?>/assets/js/jquery-1.8.3.min.js"></script> -->
 	<?php wp_head(); ?>
 	<!-- <script type="text/javascript">
@@ -134,7 +134,7 @@
 			</div>
 			<div class="position">
 				<ul id="nav">
-					<li class="selected first"><a title="Trang chủ" href="https://nhakinhtrongrau.net/trang-chu">Trang
+					<li class="selected first"><a title="Trang chủ" href="https://nhakinhtrongrau.net">Trang
 							chủ</a></li>
 					<li><a title="Sản phẩm" href="https://nhakinhtrongrau.net/san-pham">Sản phẩm</a></li>
 					<li><a title="Tin tức" href="https://nhakinhtrongrau.net/tin-tuc-su-kien">Tin tức</a></li>
